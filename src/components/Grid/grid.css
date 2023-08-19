@@ -1,0 +1,55 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  display: block;
+  background: '#faf';
+}
+
+.node-start {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  display: block;
+  background: green;
+}
+
+.node-end {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  display: block;
+  background: rebeccapurple;
+}
+
+.node-wall {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  display: block;
+  background: darkgray;
+}
+
+.node-visited {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  display: block;
+  background: greenyellow;
+}
+
+.node-shortest-path {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  display: block;
+  background: purple;
+}
